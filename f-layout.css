@@ -3,9 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-
-
 .container-f{
   display:grid;
   grid-template-columns:1fr 1fr 1fr 1fr;
@@ -24,13 +21,13 @@ header{
   grid-area: header;
   align-self: STRETCH;
   padding-top: 2.5rem;
-  padding-left: 5%;
+  padding-left: 5vw;
 }
 
 .subheader{
   grid-area: subheader;
   align-self: center;
-  padding-left: 5%;
+  padding-left: 5vw;
 }
 #image-one{
   grid-area: image-one;
@@ -46,33 +43,27 @@ header{
   grid-area: image-three;
   justify-self: center;
   height: 95%;
-  
 }
 #para-one{
   grid-area: para-one;
   margin-right: 20%;
-  font-size: 24pt;
+  font-size: 18pt;
 }
 #para-two{
   grid-area: para-two;
   margin-right: 20%;
-  font-size: 24pt;
+  font-size: 18pt;
 }
 #para-three{
   grid-area: para-three;
   margin-right: 20%;
-  font-size: 24pt;
+  font-size: 18pt;
 }
 
 
 
 
 
-
-
-*{
-  margin:0;
-}
 
 h1, h2{
   color: white;
