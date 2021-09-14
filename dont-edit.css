@@ -1,22 +1,22 @@
-body{
+body {
   width: 500px;
   margin: auto;
   text-align: center;
 }
 
-li{
+li {
   list-style: none;
 }
 
-ol,ul{
+ol,
+ul {
   padding: 0px;
 }
 
-ul{
+ul {
   position: relative;
-  
 }
 
-.bar{
+.bar {
   padding: 20px;
 }
