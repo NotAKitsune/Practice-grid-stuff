@@ -1,3 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
 .container-f{
   display:grid;
   grid-template-columns:1fr 1fr 1fr 1fr;
@@ -14,24 +22,36 @@
 header{
   background-color: black;
   grid-area: header;
+  align-self: STRETCH;
+  padding: AUTO;
 }
-
 .subheader{
   grid-area: subheader;
 }
-
-.image-one{
+#image-one{
   grid-area: image-one;
+  justify-self: center;
 }
-.image-two{
+#image-two{
   grid-area: image-two;
+  justify-self: center;
 }
-.image-three{
+#image-three{
   grid-area: image-three;
+  justify-self: center;
+  
 }
-
-.para-one{
+#para-one{
   grid-area: para-one;
+  margin-right: 100px;
+}
+#para-two{
+  grid-area: para-two;
+  margin-right: 100px;
+}
+#para-three{
+  grid-area: para-three;
+  margin-right: 100px;
 }
 
 
