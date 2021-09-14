@@ -1,4 +1,38 @@
+.container-f{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  grid-template-rows:.5fr .5fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "header header header header"
+    "subheader subheader subheader subheader"
+    "image-one para-one para-one para-one"
+    "image-two para-two para-two para-two"
+    "image-three para-three para-three para-three";
+  grid-gap: 10px;
+}
 
+header{
+  background-color: black;
+  grid-area: header;
+}
+
+.subheader{
+  grid-area: subheader;
+}
+
+.image-one{
+  grid-area: image-one;
+}
+.image-two{
+  grid-area: image-two;
+}
+.image-three{
+  grid-area: image-three;
+}
+
+.para-one{
+  grid-area: para-one;
+}
 
 
 
@@ -23,6 +57,3 @@ h1, h2, h3, p{
   font-family: 'Roboto', sans-serif;
 }
 
-header{
-  background-color: black;
-}
