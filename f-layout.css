@@ -23,35 +23,45 @@ header{
   background-color: black;
   grid-area: header;
   align-self: STRETCH;
-  padding: AUTO;
+  padding-top: 2.5rem;
+  padding-left: 5%;
 }
+
 .subheader{
   grid-area: subheader;
+  align-self: center;
+  padding-left: 5%;
 }
 #image-one{
   grid-area: image-one;
   justify-self: center;
+  height: 95%;
 }
 #image-two{
   grid-area: image-two;
   justify-self: center;
+  height: 95%;
 }
 #image-three{
   grid-area: image-three;
   justify-self: center;
+  height: 95%;
   
 }
 #para-one{
   grid-area: para-one;
-  margin-right: 100px;
+  margin-right: 20%;
+  font-size: 24pt;
 }
 #para-two{
   grid-area: para-two;
-  margin-right: 100px;
+  margin-right: 20%;
+  font-size: 24pt;
 }
 #para-three{
   grid-area: para-three;
-  margin-right: 100px;
+  margin-right: 20%;
+  font-size: 24pt;
 }
 
 
