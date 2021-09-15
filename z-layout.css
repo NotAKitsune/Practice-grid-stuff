@@ -4,8 +4,24 @@
   box-sizing: border-box;
 }
 .container-z{
+  height: 110vh;
   display:grid;
   grid-template-columns:repeat(8,1fr);
-  grid-template-rows:repeat(8,1fr);
+  grid-template-rows:repeat(11,1fr);
   grid-gap: 10px;
+}
+
+header{
+  grid-area: 1 / 1 / 2 / 9;
+  background-color: black;
+  color: white;
+}
+
+main{
+  grid-area: 2 / 1 / 4 / 9;
+  background-color: #c4c4c4;
+}
+
+#promo-one{
+  grid-area: 5 / 1 / 5 / 7;
 }
