@@ -25,3 +25,11 @@ main{
 #promo-one{
   grid-area: 5 / 1 / 5 / 7;
 }
+
+#image-one{
+  grid-area: 5 / 6 / 7 / 8;
+}
+
+#image-two{
+  grid-area: 7/2/9/4;
+}
