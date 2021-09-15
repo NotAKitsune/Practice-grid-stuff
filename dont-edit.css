@@ -1,5 +1,5 @@
-*{
-  margin:0;
+* {
+  margin: 0;
 }
 .bar {
   padding: 20px;
@@ -11,7 +11,16 @@
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  width: 3.5rem;
+  opacity: 0;
+  transition: 1s ease;
 }
+
+.icon-bar:hover {
+  opacity: 100;
+  transition: 1s ease;
+}
+
 
 .icon-bar a {
   display: block;
@@ -20,8 +29,8 @@
   transition: all 0.3s ease;
   color: white;
   font-size: 20px;
-  text-decoration:none;
-  font-family: 'Bebas Neue', cursive;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
 }
 
 .icon-bar a:hover {
