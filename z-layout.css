@@ -6,9 +6,9 @@
 .container-z{
   height: 110vh;
   display:grid;
-  grid-template-columns:repeat(8,1fr);
-  grid-template-rows:repeat(11,1fr);
-  grid-gap: 10px;
+  grid-template-columns:repeat(8, minmax(180px, 1fr));
+  grid-template-rows:repeat(11, minmax(180px, 1fr));
+  grid-gap: 0px;
 }
 
 header{
@@ -32,4 +32,20 @@ main{
 
 #image-two{
   grid-area: 7/2/9/4;
+}
+
+#promo-two{
+  grid-area: 7/5/9/9;
+}
+
+#image-three{
+  grid-area: 9/6/11/8;
+}
+
+#promo-three{
+  grid-area: 9/1/11/5;
+}
+
+footer{
+  grid-area: 11/1/12/9;
 }
