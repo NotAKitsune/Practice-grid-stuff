@@ -14,6 +14,7 @@
     "image-two para-two para-two para-two"
     "image-three para-three para-three para-three";
   grid-gap: 10px;
+  margin-bottom: 1rem;
 }
 
 header{
@@ -32,17 +33,14 @@ header{
 #image-one{
   grid-area: image-one;
   justify-self: center;
-  height: 95%;
 }
 #image-two{
   grid-area: image-two;
   justify-self: center;
-  height: 95%;
 }
 #image-three{
   grid-area: image-three;
   justify-self: center;
-  height: 95%;
 }
 #para-one{
   grid-area: para-one;
