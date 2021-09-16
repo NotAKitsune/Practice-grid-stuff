@@ -15,13 +15,28 @@
 sidebar{
   grid-area:sidebar;
   background-color: black;
+  color:white;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:spaced;
+  
+}
+
+.circle{
+  height: 250px;
+  width:250px;
+  background-color:red;
+  border-radius: 125px;
 }
 
 .gallery-container{
+  margin-left:1rem;
   grid-area: gallery;
   display: flex;
   flex-wrap:wrap;
-  align-content: space-between;
+  align-content: flex-start;
+  gap: 1rem;
   /*
   display:grid;
   height: 100vh;
@@ -31,5 +46,5 @@ sidebar{
 }
 
 .item-a{
-  
+  align-self:flex-start;
 }
