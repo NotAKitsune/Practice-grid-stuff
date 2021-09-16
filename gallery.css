@@ -14,11 +14,22 @@
 
 sidebar{
   grid-area:sidebar;
+  background-color: black;
 }
 
-.gallery-conatiner{
+.gallery-container{
   grid-area: gallery;
+  display: flex;
+  flex-wrap:wrap;
+  align-content: space-between;
+  /*
   display:grid;
+  height: 100vh;
   grid-template-columns: auto;
   grid-temlate-rows: auto;
+  margin:0; */
+}
+
+.item-a{
+  
 }
