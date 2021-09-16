@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 .container-z{
   height: 110vh;
@@ -18,16 +19,21 @@ header{
   grid-area: 1 / 1 / 2 / 9;
   background-color: black;
   color: white;
-  place-self: stretch;
+  display: flex;
+  align-items: center;
+  padding-left: 5rem;
 }
 
 main{
   grid-area: 2 / 1 / 4 / 9;
   background-color: #c4c4c4;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #promo-one{
-  grid-area: 5 / 1 / 7 / 6;
+  grid-area: 5 / 1 / 7 / 5;
   place-self: center;
   width: 60%;
 }
@@ -63,4 +69,7 @@ footer{
   grid-area: 11/1/12/9;
   background-color: black;
   color: white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
