@@ -9,6 +9,8 @@
   grid-template-columns:repeat(8, minmax(180px, 1fr));
   grid-template-rows:repeat(11, minmax(180px, 1fr));
   grid-gap: 0px;
+  text-align: center;
+  align-content: stretch;
 }
 
 header{
@@ -24,6 +26,7 @@ main{
 
 #promo-one{
   grid-area: 5 / 1 / 5 / 7;
+  place-self: center;
 }
 
 #image-one{
@@ -36,16 +39,21 @@ main{
 
 #promo-two{
   grid-area: 7/5/9/9;
+  place-self: center;
 }
 
 #image-three{
   grid-area: 9/6/11/8;
+  
 }
 
 #promo-three{
   grid-area: 9/1/11/5;
+  place-self:center;
 }
 
 footer{
   grid-area: 11/1/12/9;
+  background-color: black;
+  color: white;
 }
