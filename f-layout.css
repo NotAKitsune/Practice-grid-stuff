@@ -45,17 +45,14 @@ header{
 #para-one{
   grid-area: para-one;
   margin-right: 20%;
-  font-size: 18pt;
 }
 #para-two{
   grid-area: para-two;
   margin-right: 20%;
-  font-size: 18pt;
 }
 #para-three{
   grid-area: para-three;
   margin-right: 20%;
-  font-size: 18pt;
 }
 
 
