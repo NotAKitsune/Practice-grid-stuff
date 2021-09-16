@@ -1,0 +1,24 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.parent-container{
+  display:grid;
+  grid-template-columns: 450px auto;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "sidebar gallery"
+}
+
+sidebar{
+  grid-area:sidebar;
+}
+
+.gallery-conatiner{
+  grid-area: gallery;
+  display:grid;
+  grid-template-columns: auto;
+  grid-temlate-rows: auto;
+}
