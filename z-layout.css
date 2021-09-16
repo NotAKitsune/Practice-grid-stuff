@@ -11,12 +11,14 @@
   grid-gap: 0px;
   text-align: center;
   align-content: stretch;
+  place-self: center;
 }
 
 header{
   grid-area: 1 / 1 / 2 / 9;
   background-color: black;
   color: white;
+  place-self: stretch;
 }
 
 main{
@@ -25,31 +27,36 @@ main{
 }
 
 #promo-one{
-  grid-area: 5 / 1 / 5 / 7;
+  grid-area: 5 / 1 / 7 / 6;
   place-self: center;
+  width: 60%;
 }
 
 #image-one{
   grid-area: 5 / 6 / 7 / 8;
+  place-self: center;
 }
 
 #image-two{
   grid-area: 7/2/9/4;
+  place-self: center;
 }
 
 #promo-two{
   grid-area: 7/5/9/9;
   place-self: center;
+  width: 60%;
 }
 
 #image-three{
   grid-area: 9/6/11/8;
-  
+  place-self: center;
 }
 
 #promo-three{
   grid-area: 9/1/11/5;
   place-self:center;
+  width: 60%;
 }
 
 footer{
