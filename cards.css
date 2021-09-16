@@ -14,7 +14,7 @@
     "main"
     "cards"
     "footer";
-  grid-gap: 0px;
+  grid-row-gap: 25px;
   text-align: center;
   align-content: stretch;
   place-self: center;
@@ -25,6 +25,7 @@ header{
   display: flex;
   align-items: center;
   padding-left: 5rem;
+  min-height:150px;
 }
 
 main{
@@ -32,6 +33,7 @@ main{
   display:flex;
   align-items: center;
   justify-content: center;
+  min-height:450px;
 }
 
 .card-row{
@@ -47,6 +49,8 @@ main{
   justify-content: space-around;
   margin:1rem;
   text-align:center;
+  padding: 2rem;
+  max-width:400px;
 }
 
 .button{
@@ -62,6 +66,12 @@ main{
   width: 250px;
   background-color: red;
   border-radius: 125px;
+  margin:auto;
+}
+
+p{
+  margin-top:1rem;
+  margin-bottom:1rem;
 }
 
 
@@ -70,4 +80,5 @@ footer{
   display:flex;
   align-items: center;
   justify-content: center;
+  min-height:150px;
 }
