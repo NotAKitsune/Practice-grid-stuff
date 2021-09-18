@@ -9,8 +9,6 @@
   grid-template-columns:repeat(8, minmax(80px, 1fr));
   grid-template-rows:repeat(11, minmax(180px, 1fr));
   text-align: center;
-  align-content: stretch;
-  place-self: center;
 }
 
 header{
