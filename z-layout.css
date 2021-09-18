@@ -5,11 +5,9 @@
   font-family: 'Roboto', sans-serif;
 }
 .container-z{
-  height: 110vh;
   display:grid;
   grid-template-columns:repeat(8, minmax(80px, 1fr));
   grid-template-rows:repeat(11, minmax(180px, 1fr));
-  grid-gap: 0px;
   text-align: center;
   align-content: stretch;
   place-self: center;
