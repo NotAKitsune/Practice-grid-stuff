@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
+
 .container-z{
   display:grid;
   grid-template-columns:repeat(8, minmax(80px, 1fr));
