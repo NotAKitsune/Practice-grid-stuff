@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
-.container-z{
+.container{
 
   display:grid;
   grid-template-columns:1fr;
@@ -16,8 +16,7 @@
     "footer";
   grid-row-gap: 25px;
   text-align: center;
-  align-content: stretch;
-  place-self: center;
+  
 }
 
 header{
