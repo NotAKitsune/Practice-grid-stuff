@@ -3,57 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.container-f{
-  display:grid;
-  grid-template-columns:1fr 1fr 1fr 1fr;
-  grid-template-rows:.5fr .5fr 1fr 1fr 1fr;
-  grid-template-areas:
-    "header header header header"
-    "subheader subheader subheader subheader"
-    "image-one para-one para-one para-one"
-    "image-two para-two para-two para-two"
-    "image-three para-three para-three para-three";
-  grid-gap: 10px;
-  margin-bottom: 1rem;
-}
 
-header{
-  background-color: black;
-  grid-area: header;
-  align-self: STRETCH;
-  padding-top: 2.5rem;
-  padding-left: 5vw;
-}
-
-.subheader{
-  grid-area: subheader;
-  align-self: center;
-  padding-left: 5vw;
-}
-#image-one{
-  grid-area: image-one;
-  justify-self: center;
-}
-#image-two{
-  grid-area: image-two;
-  justify-self: center;
-}
-#image-three{
-  grid-area: image-three;
-  justify-self: center;
-}
-#para-one{
-  grid-area: para-one;
-  margin-right: 20%;
-}
-#para-two{
-  grid-area: para-two;
-  margin-right: 20%;
-}
-#para-three{
-  grid-area: para-three;
-  margin-right: 20%;
-}
 
 
 
