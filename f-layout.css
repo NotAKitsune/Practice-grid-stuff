@@ -17,6 +17,7 @@ header{
   align-self: strech;
   padding-top: 2.5rem;
   padding-left: 5vw;
+  background-color: black;
 }
 .subheader{
   grid-area: 2/1/3/5;
@@ -36,14 +37,14 @@ header{
   justify-self: center;
 }
 #para-one{
-  grid-area: 2/2/3/5;
-  
+  grid-area: 3/2/4/5;
+  margin-right: 20%;
 }
 #para-two{
-  grid-area: 3/2/4/5;
+  grid-area: 4/2/5/5;
 }
 #para-three{
-  grid-area: 4/2/5/5;
+  grid-area: 5/2/6/5;
 }
 
 
